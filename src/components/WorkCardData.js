@@ -1,25 +1,28 @@
-import proj1 from '../assets/project1.png';
-import proj2 from '../assets/project2.png';
-import proj3 from '../assets/project3.png';
+import quotegen from '../assets/Quote-Generator.png';
+import netflix from '../assets/Netflix-Clone.png';
+import crudapp from '../assets/Crud-App.png';
 
 const ProjectCardData = [
 	{
-		imgsrc: proj1,
-		title: 'Ecommerce Website Design',
-		text: 'Thriving Facebook community and top-reanked podcast. Amy inspires a grounded, tangible and self-affirming sense of motivation for over 100,000 online entrepreneurs. Best-selling marketing courses',
-		view: 'https://www.youtube.com/watch?v=P8YuWEkTeuE'
+		imgsrc: quotegen,
+		title: 'JS Quote Generator',
+		text: 'A random quote generator app that I created with javascript.',
+		view: 'https://quote-generator-js.vercel.app/',
+		source: 'https://github.com/ChrisRDaniels/Quote-Generator-JS'
 	},
 	{
-		imgsrc: proj2,
+		imgsrc: netflix,
 		title: 'LMS/Course Website Design',
-		text: 'Thriving Facebook community and top-reanked podcast. Amy inspires a grounded, tangible and self-affirming sense of motivation for over 100,000 online entrepreneurs. Best-selling marketing courses',
-		view: 'https://www.youtube.com/watch?v=P8YuWEkTeuE'
+		text: 'A netflix clone that was created with React, it uses Axios API calls to pull trailers if available for selected movies as well.',
+		view: 'https://netflix-clone-react-js-sandy.vercel.app/',
+		source: 'https://github.com/ChrisRDaniels/Netflix-Clone-React-JS'
 	},
 	{
-		imgsrc: proj3,
-		title: 'Rymo Ecommerce Design',
-		text: 'Thriving Facebook community and top-reanked podcast. Amy inspires a grounded, tangible and self-affirming sense of motivation for over 100,000 online entrepreneurs. Best-selling marketing courses',
-		view: 'https://www.youtube.com/watch?v=P8YuWEkTeuE'
+		imgsrc: crudapp,
+		title: 'React Hook CRUD Application',
+		text: 'A CRUD App created with React hooks.',
+		view: 'https://crud-react-app.vercel.app/',
+		source: 'https://github.com/ChrisRDaniels/CRUD-React-App'
 	}
 ];
 
