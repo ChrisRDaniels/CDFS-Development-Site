@@ -1,7 +1,7 @@
 .hero-img {
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.5);
-	height: 60vh;
+	height: 50vh;
 	position: relative;
 }
 
@@ -28,11 +28,11 @@
 }
 
 .hero-img h1 {
-	font-size: 2.4rem;
+	font-size: 3.4rem;
 }
 
 .hero-img p {
-	font-size: 1.4rem;
+	font-size: 2.4rem;
 	text-align: center;
 }
 

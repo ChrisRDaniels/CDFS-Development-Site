@@ -1,5 +1,5 @@
 import './HeroImgStyles.css';
-import IntroImage from '../assets/intro-bg.jpg';
+import IntroImage from '../assets/intro-bg.webp';
 
 import React from 'react';
 import { Link } from 'react-router-dom';
