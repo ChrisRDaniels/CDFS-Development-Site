@@ -10,7 +10,7 @@ const Contact = () => {
 			<Navbar />
 			<HeroImg2
 				heading='CONTACT ME.'
-				text='I Am Available for Contract or Full-Time Work currently'
+				text='I Am Available for Contract or Full-Time Work currently.'
 			/>
 			<Form />
 			<Footer />
