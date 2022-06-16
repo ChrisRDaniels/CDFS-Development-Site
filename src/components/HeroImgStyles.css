@@ -10,7 +10,7 @@
 	background-size: cover;
 	background-position: center;
 	object-fit: cover;
-	opacity: .15;
+	opacity: 0.15;
 	position: absolute;
 }
 
@@ -31,13 +31,22 @@
 }
 
 .hero .content {
-	position:absolute;
+	position: absolute;
 	transform: translate(-50%, -50%);
 	top: 25%;
 	left: 50%;
 	text-align: center;
+	animation: glow 2s ease-in-out infinite alternate;
 }
 
+@keyframes glow {
+	from {
+		text-shadow: 0 0 10px #fefefe;
+	}
+	to {
+		text-shadow: 0 0 30px #fefefe, 0 0 5px #fdfdfd;
+	}
+}
 .hero .content h1 {
 	font-size: 4rem;
 	padding: 0.5rem 0 1.5rem;

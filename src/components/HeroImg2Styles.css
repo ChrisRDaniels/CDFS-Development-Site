@@ -29,11 +29,22 @@
 
 .hero-img h1 {
 	font-size: 3.4rem;
+	animation: glow 2s ease-in-out infinite alternate;
+	
 }
 
 .hero-img p {
 	font-size: 2.4rem;
 	text-align: center;
+}
+
+@keyframes glow {
+	from {
+		text-shadow: 0 0 10px #fefefe;
+	}
+	to {
+		text-shadow: 0 0 30px #fefefe, 0 0 5px #fdfdfd;
+	}
 }
 
 @media screen and (max-width: 640px) {
