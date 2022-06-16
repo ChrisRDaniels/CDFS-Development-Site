@@ -1,7 +1,7 @@
 import './FormStyles.css';
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-function ContactForm() {
+const ContactForm = () => {
 	const [state, handleSubmit] = useForm('xknyeazz');
 	if (state.succeeded) {
 		return <p>Thank you for your request, I will respond shortly!</p>;
@@ -29,6 +29,6 @@ function ContactForm() {
 			</form>
 		</div>
 	);
-}
+};
 
 export default ContactForm;

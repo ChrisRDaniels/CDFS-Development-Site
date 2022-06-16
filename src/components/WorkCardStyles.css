@@ -34,8 +34,10 @@
 
 .project-btns {
 	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
 	padding: 0.5rem 0;
+	margin: auto;
 }
 
 .project-btns .btn {
