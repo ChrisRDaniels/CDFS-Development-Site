@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import HeroImg2 from '../components/HeroImg2';
 import Footer from '../components/Footer';
+import SkillsContent from '../components/SkillsContent';
 
 const Skills = () => {
 	return (
@@ -11,6 +12,7 @@ const Skills = () => {
 				heading='SKILLS.'
 				text='The Various Languages/Frameworks/Tech Stacks That I Have Worked With In The Past.'
 			/>
+			<SkillsContent />
 			<Footer />
 		</div>
 	);
