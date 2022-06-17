@@ -36,7 +36,6 @@
 	top: 30%;
 	left: 50%;
 	text-align: center;
-	animation: glow 2s ease-in-out infinite alternate;
 }
 
 @keyframes glow {
@@ -50,6 +49,7 @@
 .hero .content h1 {
 	font-size: 4rem;
 	padding: 0.5rem 0 1.5rem;
+	animation: glow 2s ease-in-out infinite alternate;
 }
 
 .hero .content p {
