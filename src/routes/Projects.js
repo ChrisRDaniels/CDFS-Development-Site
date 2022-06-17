@@ -14,7 +14,6 @@ const Projects = () => {
 				text='Here Are Some Examples Of My Work. You Can View The Live Versions As Well As The Github Source Code.'
 			/>
 			<Work />
-			<PricingCard />
 			<Footer />
 		</div>
 	);
