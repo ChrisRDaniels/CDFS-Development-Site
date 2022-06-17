@@ -1,12 +1,12 @@
 .mask {
 	width: 100%;
-	height: 50vh;
+	height: 65vh;
 	position: relative;
 }
 
 .intro-img {
 	width: 100%;
-	height: 50vh;
+	height: 65vh;
 	background-size: cover;
 	background-position: center;
 	object-fit: cover;
@@ -33,7 +33,7 @@
 .hero .content {
 	position: absolute;
 	transform: translate(-50%, -50%);
-	top: 25%;
+	top: 30%;
 	left: 50%;
 	text-align: center;
 	animation: glow 2s ease-in-out infinite alternate;
@@ -64,10 +64,10 @@
 
 @media screen and (max-width: 640px) {
 	.hero .content h1 {
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 
 	.hero .content p {
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 }

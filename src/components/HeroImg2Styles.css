@@ -30,7 +30,6 @@
 .hero-img h1 {
 	font-size: 3.4rem;
 	animation: glow 2s ease-in-out infinite alternate;
-	
 }
 
 .hero-img p {
@@ -50,6 +49,22 @@
 
 @media screen and (max-width: 640px) {
 	.hero-img h1 {
-		font-size: 2rem;
+		font-size: 3rem;
+	}
+
+	.hero-img p {
+		margin-top: 1rem;
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.hero-img h1 {
+		font-size: 3rem;
+	}
+
+	.hero-img p {
+		margin-top: 1.5rem;
+		font-size: 1.5rem;
 	}
 }
