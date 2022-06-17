@@ -29,6 +29,8 @@
 
 .hero-img h1 {
 	font-size: 3.4rem;
+	height: 30vh;
+	padding-top: 15vh;
 	animation: glow 2s ease-in-out infinite alternate;
 }
 
