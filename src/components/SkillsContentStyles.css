@@ -8,19 +8,31 @@
 	height: 100%;
 }
 
-.skills .column {
-	text-align: center;
+.column-header {
 	margin: auto;
-	padding: 1rem;
-	max-width: 350px;
+	font-size: 3rem;
+	color: #ff4700;
+	text-align: center;
 }
 
-.skills .column p {
-	margin: 1.2rem 0;
+.skills .column {
+	border: solid 1px #ff4700;
+	margin: auto;
+	padding: 1rem;
+}
+
+p {
+	margin: auto;
+	text-align: center;
 }
 
 ul {
-  display: flex;
-  align-items: center;
-  margin: 1.5rem 0;
+	display: flex;
+	align-items: center;
+	margin: 1.5rem 0;
+}
+
+li {
+	text-align: center;
+	margin: auto;
 }
