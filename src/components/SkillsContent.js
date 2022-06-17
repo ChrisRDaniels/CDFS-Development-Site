@@ -5,12 +5,13 @@ import { SiTypescript, SiFirebase, SiCsharp } from 'react-icons/si';
 
 const SkillsContent = () => {
 	return (
-		<div className='skills'>
-			<div className='column'>
+		<div>
+			<div className='skills-container'>
 				<h1 className='column-header'>-- Front End --</h1>
 				<ul>
 					<li>
 						<FaReact
+							className='icons'
 							size={125}
 							style={{ color: '#fff', marginRight: '1rem' }}
 						/>
@@ -18,6 +19,7 @@ const SkillsContent = () => {
 					</li>
 					<li>
 						<FaAngular
+							className='icons'
 							size={125}
 							style={{ color: '#fff', marginRight: '1rem' }}
 						/>
@@ -25,6 +27,7 @@ const SkillsContent = () => {
 					</li>
 					<li>
 						<SiTypescript
+							className='icons'
 							size={125}
 							style={{ color: '#fff', marginRight: '1rem' }}
 						/>
@@ -32,11 +35,13 @@ const SkillsContent = () => {
 					</li>
 				</ul>
 			</div>
+      <hr />
 			<div className='column'>
 				<h1 className='column-header'>-- Back End --</h1>
 				<ul>
 					<li>
 						<FaNodeJs
+							className='icons'
 							size={125}
 							style={{ color: '#fff', marginRight: '1rem' }}
 						/>
@@ -44,6 +49,7 @@ const SkillsContent = () => {
 					</li>
 					<li>
 						<SiFirebase
+							className='icons'
 							size={125}
 							style={{ color: '#fff', marginRight: '1rem' }}
 						/>
@@ -51,6 +57,7 @@ const SkillsContent = () => {
 					</li>
 					<li>
 						<SiCsharp
+							className='icons'
 							size={125}
 							style={{ color: '#fff', marginRight: '1rem' }}
 						/>
