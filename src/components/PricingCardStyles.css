@@ -14,8 +14,9 @@
 }
 
 .card {
-	border: 1px solid #eee;
-	color: #eee;
+	border: 7px double #ff4700;
+	border-radius: 5px;
+	color: #ff4700;
 	text-align: center;
 	padding: 1rem;
 }
