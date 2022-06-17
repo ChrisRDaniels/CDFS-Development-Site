@@ -1,0 +1,26 @@
+.skills {
+	width: 100%;
+	margin: 3rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	height: 100%;
+}
+
+.skills .column {
+	text-align: center;
+	margin: auto;
+	padding: 1rem;
+	max-width: 350px;
+}
+
+.skills .column p {
+	margin: 1.2rem 0;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0;
+}
