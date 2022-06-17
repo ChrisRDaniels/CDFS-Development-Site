@@ -68,3 +68,20 @@
 		display: initial;
 	}
 }
+
+
+@media screen and (max-width: 768px) {
+	.logo {
+		width: auto;
+		height: 50px;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.logo {
+		width: auto;
+		height: 30px;
+		display: block;
+	}
+}
